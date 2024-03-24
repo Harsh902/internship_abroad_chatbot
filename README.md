@@ -211,7 +211,7 @@ All example dialogs can be founded in corresponding [Wiki page](https://github.c
 [Link to the dialog flow diagrams](https://github.com/Harsh902/internship_abroad_chatbot/wiki/High-level-dialog-flow)
 
 ### domain.yml
-[Domain file](https://mygit.th-deg.de/id05260/test-project/-/blob/test_branch/domain.yml?ref_type=heads) has these main parts
+[Domain file](https://github.com/Harsh902/internship_abroad_chatbot/blob/main/domain.yml) has these main parts
 - Intents which bot reactss on
 - Forms which have been used to collect info from user
 - Slots
