@@ -198,17 +198,17 @@ Do you have some more questions regarding general information?
 # Implementation of the Requests
 
 ### Uses cases
-Uses cases were described before, but can also be found [here](https://mygit.th-deg.de/id05260/test-project/-/wikis/Key-Use-Cases).
+Uses cases were described before, but can also be found [here](https://github.com/Harsh902/internship_abroad_chatbot/wiki/Key-Use-Cases).
 
 ### Personas
 Detailed information about personas can be founded in corresponding
-[Wiki page](https://mygit.th-deg.de/id05260/test-project/-/wikis/Personas)
+[Wiki page](https://github.com/Harsh902/internship_abroad_chatbot/wiki/Personas)
 
 ### Example dialogs
-All example dialogs can be founded in corresponding [Wiki page](https://mygit.th-deg.de/id05260/test-project/-/wikis/Sample-Dialogs)
+All example dialogs can be founded in corresponding [Wiki page](https://github.com/Harsh902/internship_abroad_chatbot/wiki/Sample-Dialogs)
 
 ### Dialog flow
-[Link to the dialog flow diagrams](https://mygit.th-deg.de/id05260/test-project/-/wikis/High-Level-Dialogue-Flow)
+[Link to the dialog flow diagrams](https://github.com/Harsh902/internship_abroad_chatbot/wiki/High-level-dialog-flow)
 
 ### domain.yml
 [Domain file](https://mygit.th-deg.de/id05260/test-project/-/blob/test_branch/domain.yml?ref_type=heads) has these main parts
@@ -258,12 +258,12 @@ response with buttons (e.g. use case choosing) \
 and the regular one.
 
 ### nlu.yml
-[This file](https://mygit.th-deg.de/id05260/test-project/-/blob/test_branch/data/nlu.yml?ref_type=heads) contain possible user's inputs which groupped by topics (like greeting, affirming etc.).
+[This file](https://github.com/Harsh902/internship_abroad_chatbot/blob/main/data/nlu.yml) contain possible user's inputs which groupped by topics (like greeting, affirming etc.).
 
 Two types of intents were used: usual one and regular expression. Regular expression was used to extract valid degree code. 
 
 ### stories.yml
-[This file](https://mygit.th-deg.de/id05260/test-project/-/blob/main/data/stories.yml?ref_type=heads)
+[This file](https://github.com/Harsh902/internship_abroad_chatbot/blob/main/data/stories.yml)
  contains the main conversation flow of our bot. 
 In the start, we ask the user if they want to fill up a form to give us some information.
 Then, we display them the use cases.
@@ -271,11 +271,11 @@ After every subtopic question answer action, we ask the user if they have more q
 In case the user doesn't have any more questions, we initate the feedback form from the stories.
 
 ### rules.yml
-[This file](https://mygit.th-deg.de/id05260/test-project/-/blob/main/data/rules.yml?ref_type=heads) defines the rule for our chatbot, we have defined activation and deactivation rules for all of the forms here. \
+[This file](https://github.com/Harsh902/internship_abroad_chatbot/blob/main/data/rules.yml) defines the rule for our chatbot, we have defined activation and deactivation rules for all of the forms here. \
 Additionally, we use the retrieval intents for "cv_resume_assistance" here.
 
 ### actions.py
-[This file](https://mygit.th-deg.de/id05260/test-project/-/blob/main/actions/actions.py?ref_type=heads) contains the form validation action and the action to reset all slots \
+[This file](https://github.com/Harsh902/internship_abroad_chatbot/blob/main/actions/actions.py) contains the form validation action and the action to reset all slots \
 It also contains the methods to send an email via rasa.
 
 # Special Features
